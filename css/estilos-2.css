@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/hd-wallpaper-gec09a178e_1280.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 15px;
+
+}
+
+header {
+    width: 85%;
+    background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
+    margin: 0 auto;
+    border-left: solid white 3px;
+    border-right: solid white 3px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;    
+}
+
+h1 {
+    color: rgb(52,56,56);
+    text-shadow: 2px 2px 4px white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 42px;
+}
+
+main {
+    width: 85%;
+    background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    border-radius: 4px;    
+}
+
+h2 {
+    color: rgba(255, 255, 255, 0.803);
+    text-shadow: 2px 2px 4px black;
+    font-size: 24px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.panio {
+    background-color: rgb(250, 250, 251);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(36,11,29);
+}
+
+img {
+    width: 60%;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.mover-derecha {
+    font-size: 18px;
+    color: rgb(138, 6, 52);
+    text-align: right;
+    border-bottom: dotted rgb(138, 6, 52) 3px;
+    margin-bottom: 15px;
+    
+}
+
+p {
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.comprar {
+    margin: 0 auto;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    background-image: linear-gradient(to top, #0d0707 0%, #19aedc 100%);
+    padding-top: 10px;
+    padding-bottom: 7px;
+    width: 93px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.comprar:hover{
+    background-image: linear-gradient(to top, #25afb9 0%, #2d7922 100%);
+    animation: pulsate 1s ease-in-out;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.inicio{
+    margin-top: 8px;
+    margin-left: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    background-image: linear-gradient(to top,  #0d0707 0%, #19aedc 100%);
+    padding-top: 10px;
+    padding-bottom: 7px;
+    width: 93px;
+    border-radius: 5px;
+}
+
+.inicio:hover{
+    background-image: linear-gradient(to top, #25afb9 0%, #2d7922 100%);
+    animation: pulsate 1s ease-in-out;
+}
+
+footer {
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    color: white;
+    text-align: center;
+    font-size: 9px;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 85%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+@keyframes pulsate {
+    0%{
+        box-shadow: 
+        0 0 25px #287351,
+        0 0 25px #218188;
+    }
+}
